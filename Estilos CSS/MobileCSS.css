@@ -1,0 +1,98 @@
+@media ( max-width: 720px){
+    iframe{
+        position: relative;
+        margin-left:0%;
+        margin-top: 25%;
+        height: 300px;
+        width: 100%;
+        
+    }
+}
+@media ( max-width: 720px){
+#header{
+    width: 100%;
+    font-family: "Saira SemiCondensed",sans-serif;
+    color: white;
+    background: transparent;
+    position: fixed;
+    margin-top: 0px;
+    }
+}
+
+@media ( max-width: 720px){
+    ul{
+        background-color: rgba(0, 0, 0, 0.322);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 90%;
+        width: 30%;
+        float: right;
+    }
+    .tabela{
+        opacity: 0;
+    }
+    li{
+        padding: 4px;
+        margin-top: 0px;
+    }
+    li :hover{
+        background: orange;
+        cursor:pointer;
+        display: list-item;
+    }
+    ul li ul{
+        background: transparent;
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+    }
+    ul li:hover > ul, ul li ul:hover{
+        visibility: visible;
+        opacity: 1;
+        display: list-item;
+    }
+    
+}
+@media ( max-width: 720px){
+    .Formulário{
+        position: absolute;
+        margin-top:45%;
+        width: 70%;
+        color:rgb(255, 255, 255);
+        font-family:"Saira SemiCondensed",sans-serif;
+        font-size: 130%;
+        background-color:rgba(0, 0, 0, 0.438);
+        margin-left: 15%;
+    }
+}
+
+@media ( max-width: 720px){
+#desenvolvedor{
+        width: 100%;
+        height: 100%;
+        margin-top: 45%;
+        margin-left: 0%;
+        padding-left: 0;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.637);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+table{
+    margin-top: 40%;
+}
+
+footer{
+    margin-bottom: 0px;
+    font-size: 80%;
+}
+table{
+    margin-left: 0%;
+    margin-top: 50%;
+}
+td{
+    padding-left: 10px;
+}
+
+
+

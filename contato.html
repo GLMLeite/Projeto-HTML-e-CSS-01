@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fale Conosco</title>
+        <link rel="stylesheet" href="./Estilos CSS/Estilo CSS.css">
+        <link rel="stylesheet" href="./Estilos CSS/menustyle.css">
+        <link rel="stylesheet" href="./Estilos CSS/MobileCSS.css" media= "(max-width:720px)">
+        <script src="./Java/JS.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <header>
+                    <h1>FREE FIRE</h1>
+            </header>
+        </div>
+        
+        <nav class="h-menu">
+            <ul>
+                <div id="menu">
+                <li><a class="tabela" href="#">Tabela</a>
+                    <ul>
+                        <li><a href=" Tabela de Pontos.html">Tabela de Pontos</a></li>
+                        <li><a href=" Tabela de times.html">Tabela de Times</a></li>  
+                    </ul>
+                </li> 
+    
+                <li><a href="Quem sou eu.html">Desenvolvedor info </a></li>
+                <li><a href="Index.html">Home</a></li>
+                </div>
+    
+                    </ul>
+            </nav>
+            <br>
+    
+        <div class="Formulário">
+            <span>Contato</span>
+            <form action="">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="DIGITE SEU EMAIL*" required>
+                <br>
+                <label for="titulo">Título:</label>
+                <br>
+                <input type="text" name="titulo" id="titulo" placeholder="DIGITE SUA MENSAGEM">
+                <br>
+                <label for="text">Mensagem:</label>
+                <br>
+                <textarea name="text" id="text" cols="14" rows="5" placeholder="DIGITE UMA MENSAGEM AQUI*" required></textarea>
+                <br>
+
+                <button type="button" class="botao" onclick="validar()">
+                    Enviar
+                  </button>
+            </form>
+        </div>
+
+
+    </body>
+</html>

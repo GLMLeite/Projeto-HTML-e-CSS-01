@@ -1,0 +1,44 @@
+ul{
+    background: transparent;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: "Saira SemiCondensed",sans-serif;
+    font-size: 110%;
+    font-stretch:ultra-condensed;
+}
+a{
+text-decoration: none;
+}
+
+li{
+    color: white;
+    background-color: transparent;
+    float: right;
+    padding: 30px;
+    position: relative;
+    text-decoration: none;
+}
+li a{
+    color: white;
+}
+li :hover{
+    background: rgba(255, 174, 0, 0.637);
+    cursor: pointer;
+}
+ul li ul{
+    background: transparent;
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+}
+ul li:hover > ul, ul li ul:hover{
+    visibility: visible;
+
+}
+
+
+
+
+

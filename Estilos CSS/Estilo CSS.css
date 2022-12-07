@@ -1,0 +1,121 @@
+
+#header{
+width: 100%;
+font-family: "Saira SemiCondensed",sans-serif;
+color: white;
+background: rgba(0, 0, 0, 0.555);
+font-stretch:extra-condensed;
+position: fixed;
+margin-top: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(../img/fundo\ klh.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    }
+
+    table{
+        width: 50%;
+        height: 70px;
+        color: white;
+        background-color:rgba(0, 0, 0, 0.74);
+        border-style:solid;
+        border-width: 2px;
+        border-color:rgb(235, 143, 37);
+        font-family: "Saira SemiCondensed",sans-serif;
+        font-size: 100%;
+        text-align:justify;
+        margin-top: 10%;
+        margin-left: 25%;
+        }
+        th{
+            text-align: center;
+            font-family: "Saira SemiCondensed",sans-serif;
+            font-size: 120%;
+        }
+#desenvolvedor{
+    background-color: rgba(0, 0, 0, 0.637);
+    position: relative;
+    margin-top: 15%;
+    color: white;
+    font-family: "Saira SemiCondensed",sans-serif;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+
+@media screen {
+    iframe{
+        position: relative;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        height:450px;
+
+    }
+}
+
+
+.Formulário{
+    width: 30%;
+    color:rgb(255, 255, 255);
+    font-family:"Saira SemiCondensed",sans-serif;
+    font-size: 180%;
+    background-color:rgba(0, 0, 0, 0.438);
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+input, textarea{
+    background-color:rgba(0, 0, 0, 0.568);
+    font-family: "Saira SemiCondensed",sans-serif;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 50%;
+    width: 98%;
+    border-width: 1px;
+    border-color: rgb(235, 143, 37);    
+    }
+    ::placeholder{
+        color: rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+        text-align: center;
+    }
+    .botao{
+       background-color: black;
+       color: white;
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align:center;
+       font-size: 60%;
+       width: 100%;
+       border-width: 3px;
+       border-style:solid;
+       border-color: rgb(235, 143, 37); 
+       cursor: pointer;
+    }
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 36%;
+}
+
+footer{
+    color:rgb(255, 255, 255);
+    font-family: "Saira SemiCondensed",sans-serif;
+    width: 100% ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    height: 65px;
+}
+td{
+    padding-left: 10px;
+}
